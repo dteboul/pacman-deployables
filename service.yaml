@@ -7,10 +7,9 @@ metadata:
   name: pacman-svc
 spec:
   ports:
-  - port: 80
-    protocol: TCP
-    targetPort: 8080
+  - nodePort: 32768
+    port: 8080
   selector:
     name: pacman-deploy
   sessionAffinity: None
-  type: ClusterIP
+  type: NodePort
