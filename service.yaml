@@ -11,5 +11,4 @@ spec:
     port: 8080
   selector:
     name: pacman-deploy
-  sessionAffinity: None
   type: NodePort
