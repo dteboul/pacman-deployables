@@ -76,7 +76,7 @@ spec:
         #Default
           #value: "rgb(0, 0, 0)"
         - name: MY_IMAGE
-          value: Default Image
+          value: Hello
         - name: MESSAGE
           value: "Initial Version"
 
