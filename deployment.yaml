@@ -72,7 +72,7 @@ spec:
         #Rouge
           #value: "rgb(180, 33, 33)"
         #Bleue
-           value: "rgb(59, 108, 170)"
+          value: "rgb(59, 108, 170)"
         #Default
           #value: "rgb(0, 0, 0)"
         - name: MY_IMAGE
